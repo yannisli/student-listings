@@ -15,7 +15,7 @@ app.use(logger("dev"));
 console.log(__dirname);
 console.log(path.join(__dirname, 'images'));
 app.use(express.static(path.join(__dirname, 'images')));
-app.use(express.static(path.join(__dirname, 'reactapp/build')));
+app.use(express.static(path.join(__dirname, 'app/build')));
 
 
 
